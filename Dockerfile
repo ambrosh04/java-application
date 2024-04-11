@@ -9,6 +9,6 @@ apt-get install default-jre -y
 
 ADD ./target/gs-serving-web-content-0.1.0.jar spring-mvc-example.jar
 
-EXPOSE 8080
+EXPOSE 8000
 
 CMD java -jar spring-mvc-example.jar
